@@ -1,45 +1,23 @@
 programa {
   funcao inicio() {
     
-cadeia pessoa
-inteiro numero
+real sa, ns
 
-escreva("digite sua idade: ")
-leia(numero)
+escreva("escreva seu salario aqui:\n")
+leia(sa)
 
-escreva("digite seu nome: ")
-leia(pessoa)
+se(sa <500){
+ns = sa*1.15
+}
 
-
-se(numero >=18){
-  escreva("maior de idade")}
+senao se(sa<=1000){
+ns= sa*1.1
+}
 
 
 senao{
-  escreva("você é menor de idade")
+ns = sa*1.05
 }
-
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+escreva("seu salario é =", ns)
   }
 }
