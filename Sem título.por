@@ -2,27 +2,17 @@ programa {
   funcao inicio() {
     
 inteiro numero
-escreva("digite seu numero sua equação aqui: ")
-leia (numero)
 
+escreva("informe seu pagamento: ")
+leia(numero)
 
-se(numero >=1){
-  escreva("numero positivo ")
-}
-senao{ escreva("zero")
-}
-
-se(numero <=-1){
-  escreva("numero negativo")
-
+se(numero>=20 e numero <=90){
+  escreva("pagamento em andamento.")
 
 }
 
-
-
-
-
-
+senao{ escreva("compra negada.")
+}
 
 
 
